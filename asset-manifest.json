@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/zyr2002.github.io/static/css/main.86483367.css",
+    "main.js": "/zyr2002.github.io/static/js/main.15c79f73.js",
+    "index.html": "/zyr2002.github.io/index.html",
+    "main.86483367.css.map": "/zyr2002.github.io/static/css/main.86483367.css.map",
+    "main.15c79f73.js.map": "/zyr2002.github.io/static/js/main.15c79f73.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.86483367.css",
+    "static/js/main.15c79f73.js"
+  ]
+}
