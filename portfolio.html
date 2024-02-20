@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>翟裕如 - 关于我</title>
+    <title>爱好</title>
 
 	<!-- Meta Data -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -37,7 +37,6 @@
 
     <!-- Styles -->
 	<link rel="stylesheet" type="text/css" href="assets/styles/style.css"/>
-	<link rel="stylesheet" type="text/css" href="assets/styles/style-dark.css"/>
     
 </head>
 <body class="bg-triangles">
@@ -112,127 +111,139 @@
 						</div>
 						<div class="inner-menu">
 						    <ul class="nav">
-                                <li class="nav__item"><a class="active" href="index.html">关于我</a></li>
+                                <li class="nav__item"><a href="index.html">关于我</a></li>
 								<li class="nav__item"><a href="resume.html">人格特质</a></li>
-                                <li class="nav__item"><a href="portfolio.html">爱好</a></li>
+                                <li class="nav__item"><a class="active" href="portfolio.html">爱好</a></li>
                                 <li class="nav__item"><a href="blog.html">阶段作业</a></li>
                                 <li class="nav__item"><a href="contact.html">联系我</a></li>
                             </ul>
 						</div>
-						
+
 					    <!-- About -->
-						<div class="pb-0 pb-sm-2">
-		                    <h1 class="title title--h1 title__separate">关于我！</h1>
-						    <p>我叫翟裕如，是一个正在努力学习代码的小女孩，瞎折腾浪费时间最在行</p>
-                            <p>同时我是国家一级退堂鼓表演家、国家二级嗜睡症演员、选择困难症三级患者、现役熬夜冠军</p>
+						<div class="pb-2">
+		                    <h1 class="title title--h1 title__separate">爱好</h1>
 					    </div>
-						
-						<!-- What -->
-						<div class="box-inner pb-0">
-						    <h2 class="title title--h3">我正在学习！</h2>
-							<div class="row">
-							    <!-- Case Item -->
-							    <div class="col-12 col-lg-6">
-							        <div class="case-item box box__second">
-									    <img class="case-item__icon" src="assets/icons/icon-design.svg" alt="" />
-										<div>
-									        <h3 class="title title--h5">网页设计</h3>
-										    <p class="case-item__caption">网页设计是通过创造性的布局、视觉元素和交互设计，提供用户友好、易用且美观的在线体验。</p>
-										</div>	
+
+						<!-- Gallery -->
+						<div class="pb-0">
+							<!-- Filter -->
+                            <div class="select">
+			                    <span class="placeholder">Select category</span>
+			                    <ul class="filter">
+			                        <li class="filter__item">Category</li>
+				                    <li class="filter__item active" data-filter="*"><a class="filter__link active" href="#filter">所有</a></li>
+				                    <li class="filter__item" data-filter=".category-concept"><a class="filter__link" href="#filter">动漫</a></li>
+				                    <li class="filter__item" data-filter=".category-design"><a class="filter__link" href="#filter">游戏</a></li>
+				                    <li class="filter__item" data-filter=".category-life"><a class="filter__link" href="#filter">电影</a></li>
+			                    </ul>
+			                    <input type="hidden" name="changemetoo"/>
+		                    </div>
+
+							<!-- Content -->
+							<div class="gallery-grid js-masonry js-filter-container">
+							    <div class="gutter-sizer"></div>
+							    <!-- Item 1 -->
+							    <figure class="gallery-grid__item category-concept">
+								    <div class="gallery-grid__image-wrap">
+                                        <img class="gallery-grid__image cover lazyload" src="assets/img/image_01.jpg" data-zoom alt="" />
 									</div>
-								</div>
-								
-								<!-- Case Item -->
-								<div class="col-12 col-lg-6">
-							        <div class="case-item box box__second">
-									    <img class="case-item__icon" src="assets/icons/icon-dev.svg" alt="" />
-										<div>
-									        <h3 class="title title--h5">前端代码</h3>
-										    <p class="case-item__caption">网页前端代码主要负责实现用户在浏览器中看到的界面和交互效果，这是我目前学的最吃力的地方，我努力！</p>
-										</div>
+                                    <figcaption class="gallery-grid__caption">
+									    <h4 class="title gallery-grid__title">文豪野犬</h4>
+										<span class="gallery-grid__category">日漫</span>
+									</figcaption>
+                                </figure>
+
+							    <!-- Item 2 -->
+							    <figure class="gallery-grid__item category-concept">
+								    <div class="gallery-grid__image-wrap">
+                                        <img class="gallery-grid__image cover lazyload" src="assets/img/image_02.jpg" data-zoom alt="" />
+									</div>	
+                                    <figcaption class="gallery-grid__caption">
+									    <h4 class="title gallery-grid__title">罗小黑战记</h4>
+										<span class="gallery-grid__category">国漫</span>
+									</figcaption>
+                                </figure>
+
+							    <!-- Item 3 -->
+							    <figure class="gallery-grid__item category-design">
+								    <div class="gallery-grid__image-wrap">
+                                        <img class="gallery-grid__image cover lazyload" src="assets/img/image_03.jpg" data-zoom alt="" />
+									</div>	
+                                    <figcaption class="gallery-grid__caption">
+									    <h4 class="title gallery-grid__title">阴阳师</h4>
+										<span class="gallery-grid__category">游戏</span>
+									</figcaption>
+                                </figure>
+
+							    <!-- Item 4 -->
+							    <figure class="gallery-grid__item category-design">
+								    <div class="gallery-grid__image-wrap">
+                                        <img class="gallery-grid__image cover lazyload" src="assets/img/image_04.jpg" data-zoom alt="" />
 									</div>
-								</div>
-								
-								<!-- Case Item -->
-								<div class="col-12 col-lg-6">
-								    <div class="case-item box box__second">
-								        <img class="case-item__icon" src="assets/icons/icon-app.svg" alt="" />
-										<div>
-								            <h3 class="title title--h5">手机交互</h3>
-									        <p class="case-item__caption">手机交互是指通过移动设备进行信息传递、应用操作和用户体验的互动过程。</p>
-										</div>
-								   </div>
-								</div>
-								
-								<!-- Case Item -->
-								<div class="col-12 col-lg-6">
-								    <div class="case-item box box__second">
-									    <img class="case-item__icon" src="assets/icons/icon-photo.svg" alt="" />
-										<div>
-									        <h3 class="title title--h5">摄影</h3>
-										    <p class="case-item__caption">摄影是艺术与技术的完美结合，捕捉时刻、表达情感，通过镜头展现独特的视觉故事。</p>
-										</div>
+									<figcaption class="gallery-grid__caption">
+									    <h4 class="title gallery-grid__title">原神</h4>
+										<span class="gallery-grid__category">游戏</span>
+									</figcaption>
+                                </figure>
+
+							    <!-- Item 5 -->
+							    <figure class="gallery-grid__item category-design">
+								    <div class="gallery-grid__image-wrap">
+                                        <img class="gallery-grid__image cover lazyload" src="assets/img/image_05.jpg" data-zoom alt="" />
 									</div>
-								</div>
-							</div>	
+									<figcaption class="gallery-grid__caption">
+									    <h4 class="title gallery-grid__title">崩坏星穹铁道</h4>
+										<span class="gallery-grid__category">游戏</span>
+									</figcaption>
+                                </figure>
+
+							    <!-- Item 6 -->
+							    <figure class="gallery-grid__item category-life">
+								    <div class="gallery-grid__image-wrap">
+                                        <img class="gallery-grid__image cover lazyload" src="assets/img/image_06.jpg" data-zoom alt="" />
+									</div>
+									<figcaption class="gallery-grid__caption">
+									    <h4 class="title gallery-grid__title">千与千寻</h4>
+										<span class="gallery-grid__category">宫崎骏</span>
+									</figcaption>
+                                </figure>
+
+							    <!-- Item 7 -->
+							    <figure class="gallery-grid__item category-concept">
+								    <div class="gallery-grid__image-wrap">
+                                        <img class="gallery-grid__image cover lazyload" src="assets/img/image_07.jpg" data-zoom alt="" />
+									</div>
+									<figcaption class="gallery-grid__caption">
+									    <h4 class="title gallery-grid__title">妖精的尾巴</h4>
+										<span class="gallery-grid__category">日漫</span>
+									</figcaption>
+                                </figure>
+
+							    <!-- Item 8 -->
+							    <figure class="gallery-grid__item category-design">
+								    <div class="gallery-grid__image-wrap">
+                                        <img class="gallery-grid__image cover lazyload" src="assets/img/image_08.jpg" data-zoom alt="" />
+									</div>
+									<figcaption class="gallery-grid__caption">
+									    <h4 class="title gallery-grid__title">重返未来1999</h4>
+										<span class="gallery-grid__category">游戏</span>
+									</figcaption>
+                                </figure>
+
+							    <!-- Item 9 -->
+							    <figure class="gallery-grid__item category-life">
+								    <div class="gallery-grid__image-wrap">
+                                        <img class="gallery-grid__image cover lazyload" src="assets/img/image_09.jpg" data-zoom alt="" />
+									</div>
+									<figcaption class="gallery-grid__caption">
+									    <h4 class="title gallery-grid__title">星际穿越</h4>
+										<span class="gallery-grid__category">克里斯托弗·诺兰</span>
+									</figcaption>
+                                </figure>
+							</div>
 						</div>
-						
-						<!-- Testimonials -->
-						<div class="box-inner box-inner--white">
-						    <h2 class="title title--h3">我喜欢的人物角色！</h2>
-						
-						    <div class="swiper-container js-carousel-review">
-                                <div class="swiper-wrapper">
-								    <!-- Item review -->
-                                    <div class="swiper-slide review-item">
-										<svg class="avatar avatar--80" viewBox="0 0 84 84">
-                                            <g class="avatar__hexagon">
-                                                <image xlink:href="assets/img/avatar-2.jpg" height="100%" width="100%" />
-                                            </g>
-                                        </svg>
-									    <h4 class="title title--h5">神里绫人</h4>
-										<p class="review-item__caption">游戏《原神》中的角色，社奉行神里家现任家主。总有办法以周全的手段实现自身目的。</p>
-									</div>
-									
-									<!-- Item review -->
-                                    <div class="swiper-slide review-item">
-										<svg class="avatar avatar--80" viewBox="0 0 84 84">
-                                            <g class="avatar__hexagon">
-                                                <image xlink:href="assets/img/avatar-3.jpg" height="100%" width="100%" />
-                                            </g>
-                                        </svg>
-									    <h4 class="title title--h5">太宰治（文野）</h4>
-										<p class="review-item__caption">太宰治，漫画《文豪野犬》的主要角色之一。异能力集团“武装侦探社”的一员，表面上开朗与神秘的青年。</p>
-									</div>
-									
-									<!-- Item review -->
-                                    <div class="swiper-slide review-item">
-										<svg class="avatar avatar--80" viewBox="0 0 84 84">
-                                            <g class="avatar__hexagon">
-                                                <image xlink:href="assets/img/avatar-4.jpg" height="100%" width="100%" />
-                                            </g>
-                                        </svg>
-									    <h4 class="title title--h5">景元</h4>
-										<p class="review-item__caption">游戏《崩坏：星穹铁道》的角色。仙舟联盟帝弓七天将之一，负责节制罗浮云骑军的“神策将军”。</p>
-									</div>
-									
-									<!-- Item review -->
-                                    <div class="swiper-slide review-item">
-										<svg class="avatar avatar--80" viewBox="0 0 84 84">
-                                            <g class="avatar__hexagon">
-                                                <image xlink:href="assets/img/avatar-5.jpg" height="100%" width="100%" />
-                                            </g>
-                                        </svg>
-									    <h4 class="title title--h5">刘辩</h4>
-										<p class="review-item__caption">游戏《代号鸢》的角色。天子刘辩，幼年在隐鸢阁与主角相识，两小无猜一起长大。</p>
-									</div>
-                                </div>
-    
-                                <div class="swiper-pagination"></div>
-                            </div>
-						</div>
-						
-						
+					</div>
+					
 					<!-- Footer -->
 					<footer class="footer">© 2023 翟裕如个人主页</footer>
 		        </div>
@@ -241,7 +252,7 @@
     </main>
 
     <div class="back-to-top"></div>
-
+	
     <!-- SVG masks -->
     <svg class="svg-defs">
         <clipPath id="avatar-box">

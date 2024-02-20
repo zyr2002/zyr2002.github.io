@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>翟裕如 - 关于我</title>
+    <title>vCard - Contact</title>
 
 	<!-- Meta Data -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -37,7 +37,6 @@
 
     <!-- Styles -->
 	<link rel="stylesheet" type="text/css" href="assets/styles/style.css"/>
-	<link rel="stylesheet" type="text/css" href="assets/styles/style-dark.css"/>
     
 </head>
 <body class="bg-triangles">
@@ -87,7 +86,7 @@
 							        <a href="mailto:zhaiyuru2002@163.com"><i class="font-icon icon-envelope"></i>zhaiyuru2002@163.com</a>
 							    </li>
 						        <li class="contacts-block__item" data-toggle="tooltip" data-placement="top" title="Phone">
-							        <i class="font-icon icon-phone"></i>(+86) 18612133347
+							        <i class="font-icon icon-phone"></i>（+86）18612133347
 							    </li>
 						        <li class="contacts-block__item" data-toggle="tooltip" data-placement="top" title="Food">
 							        <a href=""><i class="font-icon icon-skype"></i>喜欢吃番茄</a>
@@ -101,7 +100,7 @@
 		        
 				<!-- Content -->
 		        <div class="col-12 col-md-12 col-xl-9">
-				    <div class="box pb-0">
+				    <div class="box">
 					    <!-- Menu -->
 					    <div class="circle-menu">
 						    <div class="hamburger">
@@ -112,127 +111,50 @@
 						</div>
 						<div class="inner-menu">
 						    <ul class="nav">
-                                <li class="nav__item"><a class="active" href="index.html">关于我</a></li>
+                                <li class="nav__item"><a href="index.html">关于我</a></li>
 								<li class="nav__item"><a href="resume.html">人格特质</a></li>
-                                <li class="nav__item"><a href="portfolio.html">爱好</a></li>
+                                <li class="nav__item"><a class="active" href="portfolio.html">爱好</a></li>
                                 <li class="nav__item"><a href="blog.html">阶段作业</a></li>
                                 <li class="nav__item"><a href="contact.html">联系我</a></li>
                             </ul>
 						</div>
-						
+
 					    <!-- About -->
-						<div class="pb-0 pb-sm-2">
-		                    <h1 class="title title--h1 title__separate">关于我！</h1>
-						    <p>我叫翟裕如，是一个正在努力学习代码的小女孩，瞎折腾浪费时间最在行</p>
-                            <p>同时我是国家一级退堂鼓表演家、国家二级嗜睡症演员、选择困难症三级患者、现役熬夜冠军</p>
+						<div class="pb-2">
+		                    <h1 class="title title--h1 title__separate">联系我</h1>
 					    </div>
-						
-						<!-- What -->
-						<div class="box-inner pb-0">
-						    <h2 class="title title--h3">我正在学习！</h2>
+
+						<!-- Contact -->
+						<h2 class="title title--h3">联系表</h2>
+							
+						<form id="contact-form" class="contact-form" data-toggle="validator">
+                            <div class="row">
+				                <div class="form-group col-12 col-md-6">
+									<i class="font-icon icon-user"></i>
+                                    <input type="text" class="input input__icon form-control" id="nameContact" name="nameContact" placeholder="请填入名字" required="required" autocomplete="on" oninvalid="setCustomValidity('Fill in the field')" onkeyup="setCustomValidity('')">
+								    <div class="help-block with-errors"></div>
+				                </div>
+				                <div class="form-group col-12 col-md-6">
+									<i class="font-icon icon-envelope"></i>
+                                    <input type="email" class="input input__icon form-control" id="emailContact" name="emailContact" placeholder="邮箱地址" required="required" autocomplete="on" oninvalid="setCustomValidity('Email is incorrect')" onkeyup="setCustomValidity('')">
+								    <div class="help-block with-errors"></div>
+				                </div>
+				                <div class="form-group col-12 col-md-12">
+                                    <textarea class="textarea form-control" id="messageContact" name="messageContact" placeholder="您的信息"  rows="4" required="required" oninvalid="setCustomValidity('Fill in the field')" onkeyup="setCustomValidity('')"></textarea>
+								    <div class="help-block with-errors"></div>
+				                </div>
+						    </div>
 							<div class="row">
-							    <!-- Case Item -->
-							    <div class="col-12 col-lg-6">
-							        <div class="case-item box box__second">
-									    <img class="case-item__icon" src="assets/icons/icon-design.svg" alt="" />
-										<div>
-									        <h3 class="title title--h5">网页设计</h3>
-										    <p class="case-item__caption">网页设计是通过创造性的布局、视觉元素和交互设计，提供用户友好、易用且美观的在线体验。</p>
-										</div>	
-									</div>
-								</div>
-								
-								<!-- Case Item -->
-								<div class="col-12 col-lg-6">
-							        <div class="case-item box box__second">
-									    <img class="case-item__icon" src="assets/icons/icon-dev.svg" alt="" />
-										<div>
-									        <h3 class="title title--h5">前端代码</h3>
-										    <p class="case-item__caption">网页前端代码主要负责实现用户在浏览器中看到的界面和交互效果，这是我目前学的最吃力的地方，我努力！</p>
-										</div>
-									</div>
-								</div>
-								
-								<!-- Case Item -->
-								<div class="col-12 col-lg-6">
-								    <div class="case-item box box__second">
-								        <img class="case-item__icon" src="assets/icons/icon-app.svg" alt="" />
-										<div>
-								            <h3 class="title title--h5">手机交互</h3>
-									        <p class="case-item__caption">手机交互是指通过移动设备进行信息传递、应用操作和用户体验的互动过程。</p>
-										</div>
-								   </div>
-								</div>
-								
-								<!-- Case Item -->
-								<div class="col-12 col-lg-6">
-								    <div class="case-item box box__second">
-									    <img class="case-item__icon" src="assets/icons/icon-photo.svg" alt="" />
-										<div>
-									        <h3 class="title title--h5">摄影</h3>
-										    <p class="case-item__caption">摄影是艺术与技术的完美结合，捕捉时刻、表达情感，通过镜头展现独特的视觉故事。</p>
-										</div>
-									</div>
-								</div>
-							</div>	
-						</div>
-						
-						<!-- Testimonials -->
-						<div class="box-inner box-inner--white">
-						    <h2 class="title title--h3">我喜欢的人物角色！</h2>
-						
-						    <div class="swiper-container js-carousel-review">
-                                <div class="swiper-wrapper">
-								    <!-- Item review -->
-                                    <div class="swiper-slide review-item">
-										<svg class="avatar avatar--80" viewBox="0 0 84 84">
-                                            <g class="avatar__hexagon">
-                                                <image xlink:href="assets/img/avatar-2.jpg" height="100%" width="100%" />
-                                            </g>
-                                        </svg>
-									    <h4 class="title title--h5">神里绫人</h4>
-										<p class="review-item__caption">游戏《原神》中的角色，社奉行神里家现任家主。总有办法以周全的手段实现自身目的。</p>
-									</div>
-									
-									<!-- Item review -->
-                                    <div class="swiper-slide review-item">
-										<svg class="avatar avatar--80" viewBox="0 0 84 84">
-                                            <g class="avatar__hexagon">
-                                                <image xlink:href="assets/img/avatar-3.jpg" height="100%" width="100%" />
-                                            </g>
-                                        </svg>
-									    <h4 class="title title--h5">太宰治（文野）</h4>
-										<p class="review-item__caption">太宰治，漫画《文豪野犬》的主要角色之一。异能力集团“武装侦探社”的一员，表面上开朗与神秘的青年。</p>
-									</div>
-									
-									<!-- Item review -->
-                                    <div class="swiper-slide review-item">
-										<svg class="avatar avatar--80" viewBox="0 0 84 84">
-                                            <g class="avatar__hexagon">
-                                                <image xlink:href="assets/img/avatar-4.jpg" height="100%" width="100%" />
-                                            </g>
-                                        </svg>
-									    <h4 class="title title--h5">景元</h4>
-										<p class="review-item__caption">游戏《崩坏：星穹铁道》的角色。仙舟联盟帝弓七天将之一，负责节制罗浮云骑军的“神策将军”。</p>
-									</div>
-									
-									<!-- Item review -->
-                                    <div class="swiper-slide review-item">
-										<svg class="avatar avatar--80" viewBox="0 0 84 84">
-                                            <g class="avatar__hexagon">
-                                                <image xlink:href="assets/img/avatar-5.jpg" height="100%" width="100%" />
-                                            </g>
-                                        </svg>
-									    <h4 class="title title--h5">刘辩</h4>
-										<p class="review-item__caption">游戏《代号鸢》的角色。天子刘辩，幼年在隐鸢阁与主角相识，两小无猜一起长大。</p>
-									</div>
-                                </div>
-    
-                                <div class="swiper-pagination"></div>
-                            </div>
-						</div>
-						
-						
+				                <div class="col-12 col-md-6 order-2 order-md-1 text-center text-md-left">
+					                <div id="validator-contact" class="hidden"></div>
+				                </div>
+				                <div class="col-12 col-md-6 order-1 order-md-2 text-right">
+					                <button type="submit" class="btn"><i class="font-icon icon-send"></i> 发送</button>
+				                </div>
+			                </div>
+		                </form>
+					</div>
+					
 					<!-- Footer -->
 					<footer class="footer">© 2023 翟裕如个人主页</footer>
 		        </div>
@@ -241,7 +163,7 @@
     </main>
 
     <div class="back-to-top"></div>
-
+	
     <!-- SVG masks -->
     <svg class="svg-defs">
         <clipPath id="avatar-box">
@@ -256,6 +178,6 @@
 	<script src="assets/js/jquery-3.4.1.min.js"></script>
 	<script src="assets/js/plugins.js"></script>
     <script src="assets/js/common.js"></script>
-
+	
 </body>
 </html>
